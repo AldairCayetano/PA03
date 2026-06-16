@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Urban Style</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        .galeria-titulo {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            margin: 30px 0 10px 0;
+        }
+
+        .galeria-subtitulo {
+            text-align: center;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .fila-fotos {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        header {
+            background: #1a1a1a;
+            padding: 18px 0 0 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+
+        header ul.web {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        header ul.web li a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 10px 16px;
+            font-size: 0.85em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        header ul.web li a i {
+            margin-right: 5px;
+            color: white;
+        }
+
+        header ul.web li a:hover {
+            color: white;
+        }
+
+        .foto-con-nombre {
+            display: inline-block;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .foto-con-nombre img {
+            width: 250px;
+            height: 320px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .foto-con-nombre p {
+            margin-top: 6px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+
+        footer ul.redes {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul.redes li a {
+            color: #ffffff;
+            font-size: 1.4em;
+            transition: color 0.3s;
+        }
+
+        footer ul.redes li a:hover {
+            color: #c8a96e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>URBAN STYLE</h1>
+        <ul class="web">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+            <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+            <li><a href="blog.html"><i class="fa-solid fa-pen"></i> Blog</a></li>
+            <li><a href="galeria.html"><i class="fa-solid fa-image"></i> Galería</a></li>
+            <li><a href="video.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+            <li><a href="contactos.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2 class="galeria-titulo">Galería</h2>
+        <p class="galeria-subtitulo">Colección Urban Style</p>
+
+        <div class="fila-fotos">
+            <div class="foto-con-nombre">
+                <img src="img/ropa.jpg" alt="ropa 1">
+            </div>
+            <div class="foto-con-nombre">
+                <img src="img/ropa2.jpg" alt="ropa 2">
+            </div>
+            <div class="foto-con-nombre">
+                <img src="img/ropa3.jpg" alt="ropa 3">
+            </div>
+        </div>
+
+        <div class="fila-fotos">
+            <div class="foto-con-nombre">
+                <img src="img/ropa4.jpg" alt="ropa 4">
+            </div>
+            <div class="foto-con-nombre">
+                <img src="img/ropa5.jpg" alt="ropa 5">
+            </div>
+            <div class="foto-con-nombre">
+                <img src="img/ropa6.jpg" alt="ropa 6">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Urban Style - Todos los derechos reservados</p>
+        <ul class="redes">
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
